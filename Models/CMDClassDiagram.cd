@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical">
+  <Class Name="Models.Appointment">
+    <Position X="10" Y="11.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAgIAAQAAEAAAAEAKAA=</HashCode>
+      <FileName>Appointment.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Feedback" />
+      <Property Name="AppointmentStatus" />
+      <Property Name="Doctor" />
+      <Property Name="Patient" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Models.Feedback">
+    <Position X="10" Y="14.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAABAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Feedback.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Rating" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Models.Prescription">
+    <Position X="16" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAEBAAAQAAAAAAAAAgAIACAA=</HashCode>
+      <FileName>Prescription.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Medicine" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Models.Vital">
+    <Position X="19.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAQAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Vital.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.Patient">
+    <Position X="13.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAACQAAAACAAAACAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Patient.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ContactDetails" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Models.Doctor">
+    <Position X="7.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QwAAEEAAAAABAAAAAAACEAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Doctor.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ContactDetails" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Specialities" />
+      <Property Name="Slots" />
+      <Property Name="Recommedations" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Models.Medicine">
+    <Position X="19.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Medicine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.Issue">
+    <Position X="10.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Issue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.Allergy">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Allergy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.Symptom">
+    <Position X="19.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Symptom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.Test">
+    <Position X="7.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAEAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Test.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Category" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Models.MedicalProblem">
+    <Position X="16.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>MedicalProblem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.VitalReading">
+    <Position X="16.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>VitalReading.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Vital" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Models.Recommedation">
+    <Position X="13" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAgAAAAAAAAAAA=</HashCode>
+      <FileName>Recommedation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PatientDetails" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Models.QuestionRating">
+    <Position X="7.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAA=</HashCode>
+      <FileName>QuestionRating.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Question" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Models.Question">
+    <Position X="4.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Question.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.SymptomData">
+    <Position X="16.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAgAAAAAA=</HashCode>
+      <FileName>SymptomData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Symptom" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Models.ContactDetails">
+    <Position X="7.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContactDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.PatientDetails">
+    <Position X="13.25" Y="6.25" Width="1.5" />
+    <AssociationLine Name="Patient" Type="Models.Patient" ManuallyRouted="true">
+      <Path>
+        <Point X="14.75" Y="6.802" />
+        <Point X="15.26" Y="6.802" />
+        <Point X="15.26" Y="11.936" />
+        <Point X="15.083" Y="11.936" Type="JumpStart" />
+        <Point X="14.917" Y="11.936" Type="JumpEnd" />
+        <Point X="14.75" Y="11.936" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="BloodGroup" Type="Models.BloodGroup" ManuallyRouted="true">
+      <Path>
+        <Point X="14.75" Y="6.495" />
+        <Point X="15.337" Y="6.495" />
+        <Point X="15.337" Y="1.85" />
+        <Point X="14.75" Y="1.85" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABECAAAAAAAAIAAABAAAAIASAAAAAAAAAAAAAAABCAA=</HashCode>
+      <FileName>PatientDetails.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Patient" />
+      <Property Name="BloodGroup" />
+      <Property Name="SymptomDetails" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="VitalReadings" />
+      <Property Name="MedicalProblem" />
+      <Property Name="Issues" />
+      <Property Name="Allergies" />
+      <Property Name="Prescriptions" />
+      <Property Name="TestReports" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Models.Speciality">
+    <Position X="4.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAEAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Speciality.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SpecialityCategory" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Models.SpecialityCategory">
+    <Position X="1" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpecialityCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.TestReport">
+    <Position X="10.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgCAAABAA=</HashCode>
+      <FileName>TestReport.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Test" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Models.TestCategory">
+    <Position X="4.25" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TestCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.DoctorAvailabilitySlot" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAQAAAAAAgAAAAAAAAAAAAIAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>DoctorAvailabilitySlot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.SymptomDetails">
+    <Position X="13.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAEAAAA=</HashCode>
+      <FileName>SymptomDetails.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SymptomData" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Doctors" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Enum Name="Models.BloodGroup">
+    <Position X="13.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAIAAAAgAAAAAABAAAAAQAAACAAAAAAIAAEAAA=</HashCode>
+      <FileName>BloodGroup.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Models.AppointmentStatus">
+    <Position X="7" Y="11.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAIAAAAAAAAAAAAAAAAAAAAAAgAACAAAA=</HashCode>
+      <FileName>AppointmentStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
